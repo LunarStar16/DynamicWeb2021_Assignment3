@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.info{
+    grid-column: 2;
+}

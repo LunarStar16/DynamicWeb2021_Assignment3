@@ -1,0 +1,5 @@
+# Hopping Through The Hills Face Tracker
+
+## What This Face Tracker Does:
+
+This Webcam Face tracker is made to make the user look loosely like a rabbit. the user can move their face up and down and left to right to interact with the environment, making the hills move up and down and left to right as if you were a rabbit hopping through the hills. To be specific when the user moves left the environment will go right to simulate moving through the environment, and when moving right the environment will go left, going up moves the environment down and moving down makes the environment go up. This is achieved by the point of the nose on the face tracking (clmtracker) software, so where ever the use points or moves the tip of the nose is how the user is able to interact within the environment. For the face to look more like a bunny rabbit the eyebrow points were used for the ear placement and the nose hole points were used to make the nose, and to make the mouth the inside point of the clmtracker were used to try and simulate the rabbit mouth with the middle line being connected to the middle of the mouth to the middle of the nose point where the nose holes meet.
